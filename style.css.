@@ -102,6 +102,42 @@ button:hover {
         width: 95%;
         padding: 15px;
     }
+/* Navigation Bar */
+nav {
+    background-color: #007bff;
+    padding: 10px 0;
+    position: fixed; /* Sticks to the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+
 
     button {
         width: 100%;
