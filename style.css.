@@ -143,4 +143,8 @@ nav ul li a:hover {
         width: 100%;
     }
 }
+header {
+    margin-top: 60px; /* Adjust to match the navbar height */
+}
+
 
